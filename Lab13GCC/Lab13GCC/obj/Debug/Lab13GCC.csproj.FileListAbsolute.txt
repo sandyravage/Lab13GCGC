@@ -1,0 +1,7 @@
+C:\Users\TEVERTS\source\repos\Lab13GCC\Lab13GCC\bin\Debug\Lab13GCC.exe.config
+C:\Users\TEVERTS\source\repos\Lab13GCC\Lab13GCC\bin\Debug\Lab13GCC.exe
+C:\Users\TEVERTS\source\repos\Lab13GCC\Lab13GCC\bin\Debug\Lab13GCC.pdb
+C:\Users\TEVERTS\source\repos\Lab13GCC\Lab13GCC\obj\Debug\Lab13GCC.csprojAssemblyReference.cache
+C:\Users\TEVERTS\source\repos\Lab13GCC\Lab13GCC\obj\Debug\Lab13GCC.csproj.CoreCompileInputs.cache
+C:\Users\TEVERTS\source\repos\Lab13GCC\Lab13GCC\obj\Debug\Lab13GCC.exe
+C:\Users\TEVERTS\source\repos\Lab13GCC\Lab13GCC\obj\Debug\Lab13GCC.pdb
