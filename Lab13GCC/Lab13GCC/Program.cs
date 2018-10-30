@@ -46,12 +46,11 @@ namespace Lab13GCC
                 {
                     break;
                 }
-            }
+            }            
+            Console.WriteLine("\n\nYEET\n\n" + RoshamboApp.YEET);
             Console.WriteLine("\n" + RoshamboApp.whoWon());
             Console.Write("\nThanks for playing!\n\n" +
                 "Press any key to exit . . .");
-            Console.ReadKey();
-            Console.WriteLine("\n\nYEET\n\n" + RoshamboApp.YEET);
             Console.ReadKey();
         }
     }
