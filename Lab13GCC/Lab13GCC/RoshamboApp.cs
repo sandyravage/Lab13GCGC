@@ -33,19 +33,46 @@ namespace Lab13GCC
        __________)
       (____)
 ---.__(___)";
+        public static string YEET = @"          
+          .--------._
+         (`--'       `-.
+          `.______      `.
+       ___________`__     \
+    ,-'           `-.\     |
+   //                \|    |\
+  (`  .'~~~~~---\     \'   | |
+   `-'           )     \   | |
+      ,---------' - -.  `  . '
+    ,'             `%`\`     |
+   /                      \  |
+  /     \-----.         \    `
+ /|  ,_/      '-._            |
+(-'  /           /            `     
+,`--<           |        \     \
+\ |  \         /%%             `\
+ |/   \____---'--`%        \     \
+ |    '           `               \
+ |
+  `--.__
+        `---._______
+                    `.
+                      \";
 
 
-
-        public static Player Play(string choice)
+        public static int Play(string choice)
         {
             if (choice == "Easy")
             {
-                return new Player1();
+                return 1;
+            }
+            else if(choice == "Hard")
+            {
+                return 2;
             }
             else
             {
-                return new Player2();
-            }   
+                return 3;
+            }
         }
 
         public static string isWinner(Roshambo one, Roshambo two)

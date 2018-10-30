@@ -8,5 +8,20 @@ namespace Lab13GCC
 {
     class Player3 : Player
     {
+        public Roshambo generateRoshambo(Roshambo rosh)
+        {
+            if(rosh == Roshambo.Rock)
+            {
+                return Roshambo.Paper;
+            }
+            else if(rosh == Roshambo.Paper)
+            {
+                return Roshambo.Scissors;
+            }
+            else
+            {
+                return Roshambo.Rock;
+            }
+        }
     }
 }

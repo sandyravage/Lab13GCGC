@@ -13,5 +13,15 @@ namespace Lab13GCC
             Roshambo = Roshambo.Rock;
             return Roshambo.Rock;
         }
+
+        public static implicit operator Player1(Player2 v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static implicit operator Player1(Player3 v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

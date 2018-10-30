@@ -19,9 +19,9 @@ namespace Lab13GCC
         }
         public static string playerChecker(string choice)
         {
-            while (choice != "Easy" && choice != "Hard")
+            while (choice != "Easy" && choice != "Hard" && choice != "Brutal")
             {
-                Console.Write("\nInvalid choice. Please enter \"Easy\" for an easy opponent or \"Hard\" for a difficult one: ");
+                Console.Write("\nInvalid choice. Please enter \"Easy\" for an easy opponent, \"Hard\" for a difficult, or \"Brutal\" for an extreme challenge: ");
                 choice = Console.ReadLine();
             }
             return choice;
